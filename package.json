@@ -1,0 +1,26 @@
+{
+  "name": "magicaccess",
+  "version": "1.0.0",
+  "description": "Magic Access is a robust Magic Link Authentication Provider, streamlining secure access for web applications. It elegantly handles user authentication with magic links, eliminating the need for traditional passwords. Additionally, it supports project-level access control, allowing users to manage their own customers within the system. Ideal for developers seeking a seamless, secure, and scalable authentication solution.",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "authenticatin provider",
+    "magic link authentication",
+    "nestjs",
+    "nextjs",
+    "resend",
+    "react-email"
+  ],
+  "author": "Kyaw Zin Thiha",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,scss,md}": "prettier --write"
+  }
+}
